@@ -1,0 +1,46 @@
+<nav class = "navbar navbar-default" role ="navigation">
+		  <div class="container-fluid">
+    <div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar" >
+				<span class="icon-bar" ></span>
+				<span class="icon-bar" ></span>
+				<span class="icon-bar"></span>
+			</button>
+			 <a class="navbar-brand" href="#">
+			 	<span class="navbar1Tab1">
+							<img src="./fonts/logo.jpg">
+				</span>
+			 </a>
+</div>
+			 <div class="collapse navbar-collapse" id="mynavbar">
+				 <ul class="nav navbar-nav">
+						
+						<li>
+							<a href="#" class="navbar1Tab2"><img src="./fonts/Exchange.svg"><br><span class="tabtext">EXCHANGE</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="navbar1Tab2"><img src="./fonts/Map.svg"><br><span class="tabtext">MAP</span></a>
+						</li>
+						<li>
+							<a href="#" class="navbar1Tab2"><img src="./fonts/Insights.svg"><br><span class="tabtext">INSIGHTS</span></a>
+						</li>
+					</ul>
+			</div>
+			</div>
+		</nav>
+<center>
+	<form name="myForm" role="form" ng-submit="load_insights_page()" >
+
+		<div class="form-group" style="text-align:center;">
+		<div class="searchbox" >
+		<input type="text" class="form-control" name="zipcode" id="zipcode" ng-Change="validate()" placeholder="Type Location or Zip Code" ng-model="ctrl.user.zipcode" ng-minlength="5" ng-maxlength="5"  required>
+		<span class="help-block" id="error_msg" style="display: none;">
+			<small>Location not found - please try again</small			
+		</span>
+		</div>
+		
+		  <input type="submit" name="btn_gotoinsights" id="btn_gotoinsights" class="btn btn-lg btn-custom" value="Go to Insights" disabled>
+		 </div>
+	</form>
+</center>
