@@ -1,0 +1,258 @@
+body
+{
+	background-color: #022A32;
+
+
+}
+
+
+a{
+	font-family: "Droid Sans Regular";
+	
+	 color:#48CCC5
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-size:12px;
+  
+    }
+
+.navbar-default{
+background-color: #022A32;
+border-color: #022A32;
+}
+.navbar-default .navbar-brand {
+    color: #A4B6BF;
+}
+
+.navbar-brand{
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right: 0px;
+    width: 220px;
+}
+
+
+.navbar1Tab1{
+
+	display:inline-block;
+	margin-bottom:0;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.42857143;
+	text-align:left;
+	white-space:nowrap;
+	vertical-align:middle;
+
+	border-color:#011519;
+	border: 1px solid transparent;
+	height: 76px;
+	width: 250px;
+}
+.navbar1Tab2{
+
+	display:inline-block;
+	padding:13px 0px;
+	margin-bottom:0;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.42857143;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	
+	background-color:#011519;
+	border-color:#1B2E35;
+	border: 1px solid transparent;
+	height: 68px;
+	width: 82px;
+	border-left-color: #1B2E35;
+}
+
+.navbar2FilterTab{
+
+	display:inline-block;
+	padding:13px 0px;
+	margin-bottom:0;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.42857143;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	
+	background-color:#2B4D57;
+	border-color:#1B2E35;
+	border: 1px solid transparent;
+	height: 68px;
+	width: 60px;
+}
+
+.navbar2Tab1{
+
+	display:inline-block;
+	padding:13px 0px;
+	margin-bottom:0;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.42857143;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	
+	background-color:#011519;
+	border-color:#1B2E35;
+	border: 1px solid transparent;
+	height: 58px;
+	width: 176px;
+}
+
+.navbar2Tab2{
+
+	display:inline-block;
+	padding:13px 0px;
+	margin-bottom:0;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.42857143;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	
+	background-color:#121F25;
+	border-color:#1B2E35;
+	border: 1px solid transparent;
+	height: 58px;
+	width: 60px;
+	border-left-color: #1B2E35;
+}
+
+.navbar1UserTab{
+
+	display:inline-block;
+	padding:13px 0px;
+	margin-bottom:0;
+	margin-left: 318px;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.42857143;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	
+	background-color:#121F25;
+	border-color:#1B2E35;
+	border: 1px solid transparent;
+	height: 62px;
+	width: 99px;
+	border-left-color: #1B2E35;
+}
+.navbar2RealTimeTab{
+
+	display:inline-block;
+	padding:13px 0px;
+	margin-bottom:0;
+	margin-left: 312px;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.42857143;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	
+	background-color:#121F25;
+	border-color:#1B2E35;
+	border: 1px solid transparent;
+	height: 58px;
+	width: 105px;
+	border-left-color: #1B2E35;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #48CCC5;
+    background-color: #096276;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active {
+    color: #48CCC5;
+    background-color: #096276;
+}
+
+.navbar2Tab1:hover{
+	
+	background-color:#2BB6AF;
+	border-color:#1B2E35
+}
+.navbar2Tab2:hover{
+	
+	background-color:#96276;
+	border-color:#1B2E35
+}
+.navbar2FilterTab:hover{
+	
+	background-color:#96276;
+	border-color:#1B2E35
+}
+
+.navbar-nav.li:hover {
+    background-color:#96276;
+}
+.tabtext{
+
+	 font-size: 10px;
+	 color:#A4B6BF
+
+
+}
+.tabtext:hover{
+
+}
+
+span.glyphicon-globe {
+    font-size: 1.2em;
+}
+.filtermenu{
+	background-color:#0B1419;
+	
+}
+.form-control{
+	background-color: #022A32;
+	border: 1px solid #022A32;
+	border-bottom: 1px solid #2BB6AF;
+	text-align: center;
+	color:#fff;
+    font-size: 25px;
+    height: 70px;
+    width:100%;
+    margin-top:50%;
+
+
+}
+
+.searchbox{
+	
+width: 500px;
+margin : auto;
+
+background: transparent;
+z-index: 1000;
+position: relative;
+
+}
+.btn {
+      border-radius: 0px;
+
+   }
+
+.btn-custom {
+    color: #2BB6AF;
+    background-color: #022A32;
+    border-color: #2BB6AF;
+    margin-top: 80px;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active {
+  background-color: #26a19b;
+  border-color: #218d87;
+}
